@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.shareicon.net/download/2016/02/13/718568_cut_512x512.png" type="image/x-icon">
+    <title>Gió và Cỏ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="floating-hearts"></div>
+    <div class="container">
+        <h1 class="title">
+            Tình eo cụa Gió <span class="icon">💨</span> và Cỏ <span class="icon">🌿</span>
+        </h1>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="public/binh1.jpg" alt="Kỷ niệm 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/co1.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh2.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/co2.jpg" alt="Kỷ niệm 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh3.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/co3.jpg" alt="Kỷ niệm 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh4.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/co4.jpg" alt="Kỷ niệm 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh5.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/co5.jpg" alt="Kỷ niệm 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh6.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/co6.jpg" alt="Kỷ niệm 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh7.jpg" alt="Kỷ niệm 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh8.jpg" alt="Kỷ niệm 3">
+            </div>
+            <div class="mySlides fade">
+                <img src="public/binh9.jpg" alt="Kỷ niệm 2">
+            </div>
+        </div>
+        <button id="quizButton" class="quiz-button">Quiz Tình eo</button>
+        <button id="horoscopeButton" class="horoscope-button">Horoscope Tình Eoo</button>
+        <p id="typed-message" class="message"></p>
+        <div id="love-timer" class="love-timer">
+            <h2>Thời gian eooo nhau</h2>
+            <div class="timer">
+                <div class="time-unit">
+                    <span id="days">00</span>
+                    <p>Ngày</p>
+                </div>
+                <div class="time-unit">
+                    <span id="hours">00</span>
+                    <p>Giờ</p>
+                </div>
+                <div class="time-unit">
+                    <span id="minutes">00</span>
+                    <p>Phút</p>
+                </div>
+                <div class="time-unit">
+                    <span id="seconds">00</span>
+                    <p>Giây</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="musicPlayer" class="music-player">
+        <button id="musicToggle" class="music-button">
+            <i class="fas fa-play"></i>
+            <span class="sr-only">Phát nhạc</span>
+        </button>
+        <div id="playlist" class="playlist">
+            <h3>Danh sách nhạc</h3>
+            <ul>
+                <li data-src="media/litter-bit-better.mp3">Little bit better</li>
+                <li data-src="media/Jar-Of-Love.mp3">Jar of love</li>
+                <li data-src="media/dao-nghich.mp3">Đảo nghịch</li>
+                <li data-src="media/buon-hay-vui.mp3">Buồn hay vui</li>
+                <li data-src="media/what-make-you-beatifull.mp3">Whats make you beatifull</li>
+                <li data-src="media/ill-bee-there.mp3">I'll be there</li>
+                <li data-src="media/neu-khong-phai-em.mp3">Nếu không phải em</li>
+                <li data-src="media/giacmo.mp3">Giấc mơ</li>
+                <li data-src="media/ha-noi.mp3">Hà Nội</li>
+                <li data-src="media/love-me-like-you-do.mp3">Love Me Like You Do</li>
+                <li data-src="media/shower.mp3">Shower</li>
+                <li data-src="media/Perfect.mp3">Perfect</li>
+                <li data-src="media/DAN-DAN-Kokoro-Hikareteku.mp3">DAN DAN Kokoro Hikareteku</li>
+                <li data-src="media/Why Not Me.mp3">Why Not Me</li>
+                <li data-src="media/Body Back.mp3">Gryffin</li>
+                <li data-src="media/drunk text.mp3">Drunk text</li>
+                <li data-src="media/I Wanted You.mp3">I Wanted You</li>
+                <li data-src="media/Monsters.mp3">Monsters</li>
+                <li data-src="media/Let Her Go.mp3">Let Her Go</li>
+                <li data-src="media/Take me hand.mp3">Take me hand</li>
+                <li data-src="media/Thị Trấn Cổ Tích.mp3">Thị trấn cổ tích</li>
+                <li data-src="media/当.mp3">当</li>
+                <li data-src="media\Lan Đình Tự.mp3">Lan Đình Tự</li>
+
+                <!-- Thêm các bài hát khác vào đây -->
+            </ul>
+        </div>
+    </div>
+    <audio id="background-music" loop></audio>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="info-gio">
+                    <h3>Gió 💨</h3>
+                    <p>Vũ đẹp trai</p>
+                    <p class="copyright">&copy; 2024 Gió. Mọi quyền được bảo lưu.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=100037576443214" target="_blank" aria-label="Facebook của Gió"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mirioo.13" target="_blank" aria-label="Instagram của Gió"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="info-co">
+                    <h3>Cỏ 🌿</h3>
+                    <p>Nguyên xinh gái</p>
+                    <p class="copyright">&copy; 2024 Cỏ. Mọi quyền được bảo lưu.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/lathaonguyen247" target="_blank" aria-label="Facebook của Cỏ"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ltn206" target="_blank" aria-label="Instagram của Cỏ"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
