@@ -52,13 +52,9 @@ function createStars() {
 // Hiệu ứng gõ chữ
 function typeMessage() {
     const messages = [
-        "Em là ánh sáng trong cuộc đời anh, là nguồn cảm hứng bất tận của anh.",
-        'Em là điều tuyệt vời nhất mà anh từng có.',
-        "Mỗi lần nhìn vào mắt em, anh cảm giác như chìm vào một thế giới mà chỉ có chúng ta.",
-        "Từng ánh mắt, từng nụ cười của em đều khiến trái tim anh loạn nhịp.",
-        "Anh không thể ngừng nghĩ về em, như một cơn gió cứ cuốn anh vào vòng xoáy của tình yêu.",
-        'Cảm ơn em đã đọc hết nhưng mà sến quá.',
-        'Eoo em vai L!'
+        "Nơi này vẫn là của em.",
+        'Tạm biệt!',
+        "Cỏ"
     ];
     const typedMessage = document.getElementById("typed-message");
     let messageIndex = 0;
